@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Semana_07</string>
+    <string name="Txt_regresar">Regresar</string>
+    <string-array name="opciones_colors">
+        <item>[Seleccione]</item>
+        <item>Orange</item>
+        <item>Blue</item>
+        <item>Green</item>
+    </string-array>
+
+
+
+</resources>

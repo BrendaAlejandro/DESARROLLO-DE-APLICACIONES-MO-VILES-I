@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vista.registra.EditorialRegistraActivity"
+    android:orientation="vertical"
+    android:id="@+id/RegistrarEditorial"
+    android:layout_margin="5dp"
+    android:padding="10dp"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:text="Registra Editorial"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/itemRazonSocialEditorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Ingrese la Razón Social"
+                android:padding="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                />
+
+
+
+            <EditText
+                android:id="@+id/itemDireccionEditorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Ingrese la Dirección"
+                android:padding="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                />
+
+            <EditText
+                android:id="@+id/itemFechaCreacionEditorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Ingrese la Fecha Creación"
+                android:padding="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                />
+
+            <EditText
+                android:id="@+id/itemRucEditorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Ingrese el RUC"
+                android:padding="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="País:"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                />
+
+            <Spinner
+                android:id="@+id/cboPaisEditorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tipo:"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                />
+
+            <Spinner
+                android:id="@+id/cboCategoriaEditorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btnRegistrarEditorial"
+                android:layout_width="2in"
+                android:layout_height="wrap_content"
+                android:text="Registrar"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-black"/>
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

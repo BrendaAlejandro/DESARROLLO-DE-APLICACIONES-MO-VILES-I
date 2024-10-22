@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainRevista"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vista.crud.RevistaCrudFormularioActivity"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idTitlePage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:text="Registra Revista"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:padding="3dp"
+                android:text="Nombre :"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/txtRegisRevNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:padding="3dp"
+                android:text="Frecuencia :"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/txtRegisRevFrecuencia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:padding="3dp"
+                android:text="Fecha De Creación :"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/txtRegisRevFechaCreacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:padding="3dp"
+                android:text="Modalidad :" />
+
+            <Spinner
+                android:id="@+id/spnRegisRevModalidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:padding="3dp"
+                android:minHeight="48dp"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:padding="3dp"
+                android:text="País :" />
+
+            <Spinner
+                android:id="@+id/spnRegisRevPais"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:padding="3dp"
+                android:minHeight="48dp"
+                />
+
+
+            <TextView
+                android:id="@+id/txtEstado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:padding="3dp"
+                android:text="Estado" />
+
+            <RadioGroup
+                android:id="@+id/grpEstado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton android:id="@+id/rbtActivo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Activo"/>
+                <RadioButton android:id="@+id/rbtInactivo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Inactivo"/>
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnRegisRevEnviar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:padding="3dp"
+                android:text="Registrar" />
+
+            <Button
+                android:id="@+id/btnRegLibRegresar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:padding="3dp"
+                android:text="Regresar" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

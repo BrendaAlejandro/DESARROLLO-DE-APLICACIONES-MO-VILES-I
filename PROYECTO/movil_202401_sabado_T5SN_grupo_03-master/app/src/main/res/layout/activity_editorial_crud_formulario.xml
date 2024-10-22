@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainEditorial"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vista.crud.EditorialCrudFormularioActivity"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/idTitlePageFormulario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:text="Registra Editorial"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtRegDireccionFormulario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Ingrese la Dirección"
+                android:padding="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                />
+
+            <EditText
+                android:id="@+id/txtRegRazonSocialFormulario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Ingrese la Razón Social"
+                android:padding="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@android:color/holo_red_dark" />
+
+
+            <EditText
+                android:id="@+id/txtFechaCreacionEditorialFormulario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Ingrese la Fecha Creación"
+                android:padding="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                />
+
+            <EditText
+                android:id="@+id/txtRucEditorialFormulario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Ingrese el RUC"
+                android:padding="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="País:"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                />
+
+            <Spinner
+                android:id="@+id/cboPaisEditorialFormulario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tipo:"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                />
+
+            <Spinner
+                android:id="@+id/cboCategoriaEditorialFormulario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtEstadoFormulario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estado:"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                />
+
+            <RadioGroup
+                android:id="@+id/grpEstadoFormulario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <RadioButton
+                    android:id="@+id/rbtActivoFormulario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Activo"/>
+
+                <RadioButton
+                    android:id="@+id/rbtInactivoFormulario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Inactivo"/>
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnRegistrarEditorialFormulario"
+                android:layout_width="2in"
+                android:layout_height="wrap_content"
+                android:text="Registrar"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-black"/>
+            <Button
+                android:id="@+id/btnRegresarEditorialFormulario"
+                android:layout_width="2in"
+                android:layout_height="wrap_content"
+                android:text="Regresar"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-black"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

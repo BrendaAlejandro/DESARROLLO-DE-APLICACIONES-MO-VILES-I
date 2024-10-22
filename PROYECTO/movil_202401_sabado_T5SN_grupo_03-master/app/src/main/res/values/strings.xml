@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">SISTEMA BIBLIOTECA 2024</string>
+    <string name="txt_grupo">"BIENVENIDOS A LA BIBLIOTECA"</string>
+
+    <string name="txt_registro_de_alumno">Registro de Alumno</string>
+    <string name="txt_registro_de_autor">Registro de Autor</string>
+    <string name="txt_registro_de_editorial">Registro de Editorial</string>
+    <string name="txt_registro_de_libro">Registro de Libro</string>
+    <string name="txt_registro_de_proveedor">Registro de Proveedor</string>
+    <string name="txt_registro_de_revista">Registro de Revista</string>
+    <string name="txt_registro_de_sala">Registro de Sala</string>
+    <string name="txt_registro_de_usuario">Registro de Usuario</string>
+
+    <string name="txt_consulta_de_alumno">Consulta de Alumno</string>
+    <string name="txt_consulta_de_autor">Consulta de Autor</string>
+    <string name="txt_consulta_de_editorial">Consulta de Editorial</string>
+    <string name="txt_consulta_de_libro">Consulta de Libro</string>
+    <string name="txt_consulta_de_proveedor">Consulta de Proveedor - ROSAS</string>
+    <string name="txt_consulta_de_revista">Consulta de Revista</string>
+    <string name="txt_consulta_de_sala">Consulta de Sala</string>
+    <string name="txt_consulta_de_usuario">Consulta de Usuario</string>
+
+    <string name="txt_crud_de_alumno">Mantenimiento Alumno</string>
+    <string name="txt_crud_de_autor">Mantenimiento Autor</string>
+    <string name="txt_crud_de_editorial">Mantenimiento Editorial</string>
+    <string name="txt_crud_de_libro">Mantenimiento Libro</string>
+    <string name="txt_crud_de_proveedor">Mantenimiento Proveedor</string>
+    <string name="txt_crud_de_revista">Mantenimiento Revista</string>
+    <string name="txt_crud_de_sala">Mantenimiento Sala</string>
+    <string name="txt_crud_de_usuario">Mantenimiento Usuario</string>
+
+    <string name="txt_menu">Menú</string>
+    <string name="txt_menu_alumno">Alumno</string>
+    <string name="txt_menu_autor">Autor</string>
+    <string name="txt_menu_editorial">Editorial</string>
+    <string name="txt_menu_libro">Libro</string>
+    <string name="txt_menu_proveedor">Proveedor</string>
+    <string name="txt_menu_revista">Revista</string>
+    <string name="txt_menu_sala">Sala</string>
+    <string name="txt_menu_usuario">Usuario</string>
+    <string name="razon_social">Razon Social:</string>
+    <string name="ruc">Ruc:</string>
+    <string name="direccion">Direccion:</string>
+    <string name="telefono">Telefono:</string>
+    <string name="celular">Celular:</string>
+    <string name="contacto">Contacto:</string>
+    <string name="fecha_de_registro">Fecha de Registro:</string>
+    <string name="mayra_salinas">Mayra Salinas</string>
+    <string name="registrar">Registrar</string>
+
+
+</resources>
